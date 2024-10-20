@@ -1,0 +1,230 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.btn {
+  cursor: pointer;
+  background: rgb(102, 102, 248);
+  border-radius: 5px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+  header h1{
+    font-size: 3rem;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-center {
+    width: 90vw;
+   }
+  
+  .nav-header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-header img {
+    width: 200px;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-btn {
+    padding: 0.15rem 0.75rem;
+  }
+  
+  .nav-btn i {
+    font-size: 1.25rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .nav-link {
+    display: inline;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    border-top: 1px solid;
+  }
+
+  .contact-link a {
+    padding: 0.15rem 1rem;
+    border-radius: 1px solid;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+  
+  @media screen and (min-width: 992px) {
+    .nav-btn {
+      display: none;
+    }
+  
+    .navbar {
+      height: 6rem;
+    }
+  
+    .nav-center {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-header {
+      height: auto;
+      margin-right: 2rem;
+    }
+  
+    .nav-links {
+      height: auto;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .nav-link {
+      padding: 0;
+      border-top: none;
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+  
+    .contact-link {
+      margin-left: auto;
+      background-color: blue;
+    }
+  }
+  
+  .AA {
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 2rem;
+   }
+  
+  .AA1 {
+    height: 40vh;
+    background: url("e&f.jpg");
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .BB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .CC {
+    text-align: center;
+    color: white;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .CC h1 {
+      font-size: 4rem;
+      margin-bottom: 0;
+    }
+  }
+  
+  .EE {
+    display: grid;
+    gap: 2rem 1rem;
+  }
+  
+  .FF {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+  
+  .recipes-list {
+    display: grid;
+    gap: 2rem 1rem;
+    padding-bottom: 3rem;
+    border-radius: 5px;
+  }
+  
+  .FF h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  .recipe {
+    display: block;
+  }
+  
+  .recipe-img {
+    height: 15rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }  
+  
+  @media screen and (min-width: 576px) {
+    .recipes-list {
+      grid-template-columns: 1fr 1fr;
+    }
+    .recipe-img {
+      height: 10rem;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .EE {
+      grid-template-columns: 200px 1fr;
+    }
+    .FF {
+      order: 0;
+    }
+    .FF {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
+ 
