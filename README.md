@@ -22,3 +22,6 @@ Simply Recipes is a responsive web page that showcases different recipes with mi
 - CSS3
 - Font Awesome (for icons)
 
+## Author
+**sumeya**
+
