@@ -24,4 +24,6 @@ Simply Recipes is a responsive web page that showcases different recipes with mi
 
 ## Author
 **sumeya**
+GitHub:
+[github.com/sumeya](https://github.com/suumeya)
 
